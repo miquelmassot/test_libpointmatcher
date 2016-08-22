@@ -1,0 +1,12 @@
+- BoundingBoxDataPointsFilter:
+   xMin: -8.0
+   xMax: 8.0
+   yMin: -8.0
+   yMax: 8.0
+   zMin: -8.0
+   zMax: 8.0
+   removeInside: 0
+- SamplingSurfaceNormalDataPointsFilter:
+    knn: 10
+- ObservationDirectionDataPointsFilter
+- OrientNormalsDataPointsFilter
